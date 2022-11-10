@@ -6,7 +6,11 @@ Game/Mynat/Mul.v
 Game/Mynat/Pow.v
 Game/World/Tutorial.v
 Game/World/Addition.v
+Game/World/Multiplication.v
+Game/World/Power.v
 Game/World/Function.v
 Game/World/Proposition.v
 Game/World/AdvancedProposition.v
 Game/World/AdvancedAddition.v
+Game/World/AdvancedMultiplication.v
+Game/World/Inequality.v

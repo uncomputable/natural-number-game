@@ -1,5 +1,6 @@
 Require Import Unicode.Utf8.
 Require Import Game.Mynat.Definition.
+Require Import Game.World.Addition.
 
 (* Level 1 *)
 (* `exact f`: Solve goal that equals hypothesis `f` *)

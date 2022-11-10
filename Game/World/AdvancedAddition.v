@@ -2,6 +2,8 @@ Require Import Unicode.Utf8.
 Require Import Game.Mynat.Definition.
 Require Import Game.Mynat.Add.
 Require Import Game.World.Addition.
+Require Import Game.World.Proposition.
+Require Import Game.World.AdvancedProposition.
 Require Import Setoid.
 
 (* Level 1 *)
@@ -112,6 +114,7 @@ Proof.
 Qed.
 
 (* Level 10 *)
+(* `destruct a`: Case case distinction on inductive structure that `a` has  *)
 
 Lemma add_left_eq_zero {a b : mynat} (H : a + b = 0) : b = 0.
 Proof.

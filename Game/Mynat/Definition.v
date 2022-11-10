@@ -11,7 +11,12 @@ Notation "0" := zero.
 Notation "1" := one.
 Notation "2" := two.
 
-Theorem one_eq_succ_zero : one = succ zero.
+Theorem one_eq_succ_zero : 1 = succ 0.
+Proof.
+  reflexivity.
+Qed.
+
+Theorem two_eq_succ_one : 2 = succ 1.
 Proof.
   reflexivity.
 Qed.
