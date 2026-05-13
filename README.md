@@ -10,6 +10,18 @@ The files were translated into Coq more or less 1:1.
 All the credit goes to Imperial College London for creating such an amazing game.
 Play their game [here](https://www.ma.imperial.ac.uk/~buzzard/xena/natural_number_game/).
 
+## Distro-agnostic build+run instructions
+
+```bash
+git clone https://github.com/uncomputable/natural-number-game
+cd natural-number-game
+distrobox create -n NNG -i ubuntu:20.04
+distrobox enter NNG
+sudo apt-get install -y build-essential coq coqide
+coq_makefile -f _CoqProject -o CoqMakefile
+make -f CoqMakeFile
+```
+
 ## Dependencies
 
 - coq 8.12 or higher
